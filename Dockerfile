@@ -23,7 +23,7 @@ CMD ["dotnet", "TodoApi.dll"]
 ## If I use CMD I CAN do the following:
 ## $ docker run -it --rm <image-name> bash
 
-## to run ise -d and -p port mapping like below:
+## to run use -d and -p port mapping, like below:
 ## $ docker run -d -p 8088:80 --name todoapp <image-name:image-tag>
 ## to debug because we use CMD, get into the running container and check
 ## $ docker exec -it todoapp bash
